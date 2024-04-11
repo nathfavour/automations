@@ -1,0 +1,23 @@
+VIDEO UPLOADER PIPELINE
+
+1. open a browsr
+2. login to google on a tab
+3. login to youtube on another tab
+4. go to youtube studio
+5. take the youtube video from the video generator pipeline
+6. post the video on youtube
+
+VIDEO GENERATOR PIPELINE
+
+1. take a text, audio, video prompt
+2. make use of the chrome automation to search for related content to it
+3. generate a video from the text, audio, video prompt with the video engine
+4. store that video in a place that the youtube uploader can access
+
+VIDEO ENGINE
+
+1. Use ffmpeg, etc to create video from text, audio, images, etc
+2. get copyright free text, video, audio, and images from the internet
+3. use a small rust brain to understand the kind of video to create from the prompt
+
+
