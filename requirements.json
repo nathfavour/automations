@@ -1,0 +1,43 @@
+{
+    "Python": {
+      "Django": {
+        "version": "3.2",
+        "dependencies": [
+          {"name": "djangorestframework", "version": "3.12.4"},
+          {"name": "django-filter", "version": "2.4.0"}
+        ]
+      },
+      "Flask": {
+        "version": "1.1.2",
+        "dependencies": [
+          {"name": "Flask-RESTful", "version": "0.3.8"},
+          {"name": "Flask-SQLAlchemy", "version": "2.5.1"}
+        ]
+      }
+    },
+    "JavaScript": {
+      "React": {
+        "version": "17.0.2",
+        "dependencies": [
+          {"name": "redux", "version": "4.1.0"},
+          {"name": "react-router-dom", "version": "5.2.0"}
+        ]
+      },
+      "Vue": {
+        "version": "2.6.12",
+        "dependencies": [
+          {"name": "vuex", "version": "3.6.2"},
+          {"name": "vue-router", "version": "3.5.1"}
+        ]
+      }
+    },
+    "Java": {
+      "Spring": {
+        "version": "5.3.8",
+        "dependencies": [
+          {"name": "spring-boot-starter-web", "version": "2.5.2"},
+          {"name": "spring-boot-starter-data-jpa", "version": "2.5.2"}
+        ]
+      }
+    }
+  }
